@@ -46,11 +46,3 @@ En el cuaderno de Google Colab, se analizarán los resultados bajo dos criterios
 3.  Observa la definición del grafo (nodos y aristas).
 4.  Ejecuta las funciones de búsqueda y compara las salidas de texto para ver el orden de visita de los nodos.
 5.  Lee las conclusiones al final del cuaderno.
-
-## 🛠 Requisitos
-
-*   Cuenta de Google (para usar Colab).
-*   Nociones básicas de Python (listas, diccionarios y funciones).
-
----
-*Este ejercicio es una introducción práctica a estructuras de datos y algoritmos.*
