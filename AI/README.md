@@ -1,48 +1,62 @@
-# Algoritmos de Búsqueda en Grafos: BFS y DFS
+# BFS y DFS en un grafo
 
-Este repositorio contiene un ejercicio práctico diseñado para ejecutarse en **Google Colab**, cuyo objetivo es comprender e implementar los dos algoritmos fundamentales de recorrido de grafos: **Búsqueda en Anchura (BFS)** y **Búsqueda en Profundidad (DFS)** utilizando el lenguaje **Python**.
+## Descripcion
+Este ejemplo compara dos metodos de busqueda en grafos:
 
-## 📖 Introducción
+- BFS (Breadth-First Search): explora por niveles.
+- DFS (Depth-First Search): explora en profundidad.
 
-Los algoritmos de búsqueda son la base para resolver problemas complejos en ciencias de la computación, desde la navegación GPS hasta la inteligencia artificial en videojuegos. Este proyecto se centra en las dos estrategias principales de exploración:
+El script imprime el orden de visita en consola y muestra una visualizacion para diferenciar ambos recorridos.
 
-1.  **BFS (Breadth-First Search - Búsqueda en Anchura):** Explora el grafo nivel por nivel.
-2.  **DFS (Depth-First Search - Búsqueda en Profundidad):** Explora el grafo avanzando tanto como sea posible por cada rama antes de retroceder.
+## Archivo principal
+- `bfs_dfs.py`
 
-## 🎯 Objetivos del Ejercicio
+## Requisitos
+- Python 3.8 o superior
+- matplotlib
+- networkx
 
-Basado en la actividad propuesta, este cuaderno de trabajo busca cumplir con las siguientes metas:
+## Instalacion
+```bash
+python3 -m pip install matplotlib networkx
+```
 
-1.  **Implementación:** Desarrollar la lógica de BFS y DFS en Python para recorrer un grafo pequeño definido manualmente.
-2.  **Análisis Comparativo:** Ejecutar ambos algoritmos sobre el mismo grafo para observar las diferencias en:
-    *   **El camino encontrado:** ¿En qué orden se visitan los nodos?
-    *   **El uso de memoria:** ¿Qué estructura de datos requiere cada uno?
+## Ejecucion
+Desde la carpeta `carpeta/Work_Uni`:
 
-## 🧠 Conceptos Clave
+```bash
+python3 bfs_dfs.py
+```
 
-Para entender el código incluido en el cuaderno, es importante tener claros los siguientes conceptos teóricos:
+## Salida esperada
+En consola se imprime algo similar a:
 
-### Búsqueda en Anchura (BFS)
-*   **Estrategia:** "Inundación" o capas de cebolla. Comienza en un nodo raíz y visita todos los vecinos directos antes de pasar a los vecinos de segundo nivel.
-*   **Estructura de Datos:** Utiliza una **Cola (Queue)** bajo el principio FIFO (First In, First Out).
-*   **Aplicación ideal:** Encontrar la ruta más corta en grafos no ponderados (menor número de saltos).
+```text
+Busqueda BFS:
+A -> B -> C -> D -> E -> F
 
-### Búsqueda en Profundidad (DFS)
-*   **Estrategia:** "Laberinto". Avanza por un camino hasta que no tiene salida, luego retrocede (*backtracking*) hasta la última bifurcación y prueba un camino diferente.
-*   **Estructura de Datos:** Utiliza una **Pila (Stack)** (principio LIFO) o **Recursividad** (pila de llamadas del sistema).
-*   **Aplicación ideal:** Explorar todas las posibilidades, soluciones de rompecabezas, detección de ciclos o componentes conectados.
+Busqueda DFS:
+A -> B -> D -> E -> F -> C
+```
 
-## 📊 Comparación de Resultados
+Y en pantalla se abre una figura con 3 paneles:
 
-En el cuaderno de Google Colab, se analizarán los resultados bajo dos criterios principales:
+1. Grafo original.
+2. Recorrido BFS.
+3. Recorrido DFS.
 
-*   **Camino Encontrado:** Se observará cómo BFS garantiza encontrar el nodo objetivo en la menor cantidad de pasos (niveles), mientras que DFS puede encontrar el objetivo muy rápido o tardar mucho dependiendo de la "suerte" al elegir la primera rama, pero no garantiza el camino más corto.
-*   **Memoria Usada:** Se discutirá cómo BFS puede consumir mucha memoria si el grafo es muy ancho (muchos vecinos), mientras que DFS es generalmente más eficiente en memoria, a menos que el grafo sea extremadamente profundo.
+## Como leer la grafica
+- Aristas grises: conexiones originales del grafo.
+- Aristas coloreadas: aristas usadas por el recorrido.
+- Numero en cada nodo: orden de visita.
 
-## 🚀 Instrucciones de Uso
+## Personalizacion rapida
+- Cambia el contenido del diccionario `grafo` para probar otros casos.
+- Cambia el nodo inicial en las lineas donde se llama a `bfs(grafo, 'A')` y `dfs(grafo, 'A')`.
 
-1.  Descarga el archivo `.ipynb` de este repositorio o ábrelo directamente mediante el enlace a Google Colab.
-2.  Ejecuta las celdas secuencialmente.
-3.  Observa la definición del grafo (nodos y aristas).
-4.  Ejecuta las funciones de búsqueda y compara las salidas de texto para ver el orden de visita de los nodos.
-5.  Lee las conclusiones al final del cuaderno.
+## Problemas comunes
+Si aparece un error de importacion, instala las dependencias:
+
+```bash
+python3 -m pip install matplotlib networkx
+```
