@@ -9,4 +9,4 @@ Trabajo de inteligencia artificial que explora:
 
 ## Ejecutar en Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](LINK)
+[![Open In Colab](https://colab.research.google.com/drive/135sC8LYCqq721ldECWUsnP5Fw802_kv0?usp=sharing)](LINK)
