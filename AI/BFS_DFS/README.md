@@ -1,4 +1,5 @@
 # 🔎 BFS y DFS en Grafos
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](LINK)
 
 Implementación y comparación de dos algoritmos clásicos de búsqueda en grafos:
 
