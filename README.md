@@ -39,8 +39,8 @@ A continuación, un resumen del estado actual de las materias incluidas:
 
 | Materia | Tema Actual | Estado | Semestre | Nota Final |
 | :--- | :--- | :---: | :---: | :---: |
-| **Heurística y Teoría de Juegos** | Algoritmo A* | ✅ Completado | [X] | [Pendiente] |
-| **Electiva Profesional 1** | Proyecto Básico | 🚧 En Proceso | [X] | - |
+| **Heurística y Teoría de Juegos** | Algoritmo A* | ✅ Completado | 7 | [Pendiente] |
+| **Electiva Profesional 1** | Proyecto Básico | 🚧 En Proceso | 7 | - |
 | **[Otra Materia]** | Tarea 1 | ⏳ Pendiente | [X] | - |
 
 ---
@@ -62,7 +62,7 @@ Aquí puedes ver las herramientas principales que utilizo para mis tareas:
 
 Si tienes alguna pregunta sobre algún ejercicio específico (con fines de ayuda mutua), puedes contactarme:
 
-- 💬 **Discord/Email:** [Tu contacto aquí]
+- 💬 **Discord/Email:** [yeisoncabal421@gmail.com]
 - 🔗 **GitHub:** [TheJcabal](https://github.com/TheJcabal)
 
 ---
