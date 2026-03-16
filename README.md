@@ -33,35 +33,6 @@ El contenido está organizado por materia (o semestre) para facilitar la navegac
 
 ---
 
-## 🖥️ Sistema Operativo Académico v[2.X].0
-
-bash
-root@student-uni:~/tareas# ./analizar_progreso.sh
-
-Inicializando análisis del sistema...
-Cargando módulos: [Inteligencia_Artificial] [Electiva_Profesional]
-
-✅ MODULO: AI - Heurística y Teoría de Juegos
-   >> Estado: COMPLETADO
-   >> Última Entrega: A*_Heurística_y_Teoria_de_Juegos/colab
-   >> Rendimiento: OPTIMO (9.5/10)
-   >> Archivos procesados: 3
-
-⚠️ MODULO: Electiva-profesional1
-   >> Estado: EN CURSO
-   >> Último Commit: Create (hace 2 horas)
-   >> Rendimiento: PREDICTIVO (8.0/10)
-   >> Alertas: Próximo parcial en 3 días
-
-❌ MODULO: Base de Datos Avanzadas
-   >> Estado: PENDIENTE DE INICIAR
-   
-root@student-uni:~/tareas# echo "Estado del Sistema: SALUDABLE" 
-Estado del Sistema: SALUDABLE
-
-root@student-uni:~/tareas# _
----
-
 ## 🛠 Tecnologías y Herramientas
 
 Aquí puedes ver las herramientas principales que utilizo para mis tareas:
