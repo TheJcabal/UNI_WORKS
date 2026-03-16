@@ -57,6 +57,6 @@ Si tienes alguna pregunta sobre algún ejercicio específico (con fines de ayuda
 
 <div align="center">
 
-Hecho con ❤️ y ☕ por **TheJcabal** | © 2024
+Hecho con ❤️ y ☕ por **TheJcabal** | © 2026
 
 </div>
