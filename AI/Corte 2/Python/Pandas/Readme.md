@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-150458?logo=pandas)](https://pandas.pydata.org/)
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TheJcabal/UNI_WORKS/blob/main/Investigacion_Pandas.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/TheJcabal/UNI_WORKS/blob/main/Investigacion_Pandas.ipynb](https://colab.research.google.com/drive/1ZUIhVaQHsO9owsh7QRE_PXMy4H3WazEy?usp=sharing))
 [![License](https://img.shields.io/badge/Licencia-MIT-green.svg)](LICENSE)
 
 > **Materia:** Inteligencia Artificial  
