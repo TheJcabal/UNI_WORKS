@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/Licencia-MIT-green.svg)](LICENSE)
 
 > **Materia:** Inteligencia Artificial  
-> **Herramienta:** Google Colab / Jupyter Notebook  
+> **Herramienta:** Google Colab 
 > **Enfoque:** Investigación teórica + Ejercicios prácticos de manipulación de datos
 
 ---
@@ -35,12 +35,3 @@ Este repositorio contiene una investigación completa sobre la librería **Panda
 El proyecto demuestra el flujo de trabajo típico en análisis de datos: desde la creación de estructuras de datos hasta la manipulación, transformación y exportación de información.
 
 ---
-
-## 🛠️ Requisitos
-
-```bash
-# Instalación de dependencias
-pip install pandas numpy matplotlib
-
-# O si usas Google Colab (recomendado)
-# Las librerías ya vienen preinstaladas
