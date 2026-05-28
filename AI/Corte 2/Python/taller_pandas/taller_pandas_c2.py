@@ -472,10 +472,11 @@ print(
 )  # muestra los productos ordenados de mayor a menor según Total_Venta
 
 # Punto Adicional (Opcional)
-# exportar el DataFrame final a un archivo CSV
-df.to_csv(
-    "productos_ventas.csv", index=False
-)  # exporta el DataFrame a un archivo CSV sin incluir el índice
+# exportar el DataFrame final a un archivo Excel
+df.to_excel(
+    "productos_ventas.xlsx", index=False
+)  # exporta el DataFrame a un archivo Excel
 print(
-    "DataFrame exportado a 'productos_ventas.csv'"
+    "DataFrame exportado a 'productos_ventas.xlsx'"
 )  # confirma que el DataFrame ha sido exportado
+
