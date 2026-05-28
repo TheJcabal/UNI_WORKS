@@ -24,7 +24,6 @@
 ## 📂 Estructura del Proyecto
 # 🧠 Inteligencia Artificial con Python | Universidad del Pacífico
 
-![Logo Universidad](https://www.unipacifico.edu.co/storage/wlqYSgBs.png)
 
 > Repositorio con los ejercicios y prácticas de la materia de **Inteligencia Artificial**, desarrollados en **Python**.  
 > Cubre desde algoritmos de búsqueda heurística hasta redes neuronales y aprendizaje por refuerzo.
