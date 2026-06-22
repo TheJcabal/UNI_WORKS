@@ -14,6 +14,8 @@
 * Ewdar Suárez
 * Steven Cabal
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CkHBfeFXoJQpchnyxMgIgznmyYMT6XA_?usp=sharing)
+
 ## 1. Descripción general
 
 Este repositorio contiene el desarrollo completo del Taller Práctico No. 4, el cual integra el uso de las librerías NumPy, Matplotlib y Seaborn dentro del flujo típico de un proyecto de Inteligencia Artificial: generación de datos sintéticos, cálculo de estadísticos descriptivos, visualización de datos y análisis exploratorio orientado a la toma de decisiones.
